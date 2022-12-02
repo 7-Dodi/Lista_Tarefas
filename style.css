@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: linear-gradient(45deg, rgb(162, 237, 101) 12%, rgb(9, 192, 168) 88%);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: transparent;
+    box-shadow: 0px 2px 10px #222;
+    border-radius: 30px;
+    padding: 60px;
+    background-image:url(625751-fundo-abstrato-geometrico-cinzento-claro-moderno-vetor.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 400px;
+    padding: 5px;
+}
+.container input{
+    width: 380px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: #ddd;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#nome, #time{
+    margin-bottom: 10px;
+}
+.container button{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.container #salvar{
+    background: linear-gradient(45deg, rgb(71, 40, 132) 12%, rgb(12, 225, 210) 88%);
+    color: #fff;
+}
+.container #limpar{
+    background: linear-gradient(45deg, rgb(233, 73, 129) 12%, rgb(133, 95, 222) 88%);
+    color: #fff;
+}
+.container #apagar{
+    background: linear-gradient(45deg, rgb(230, 49, 49) 12%, rgb(192, 119, 9) 88%);
+    color: #fff;
+}
+
+
+.feito{
+    background: linear-gradient(45deg, rgb(46, 91, 21) 12%, rgb(157, 214, 25) 88%);
+    color: #fff;
+}
+
+.cancelar{
+    background: linear-gradient(45deg, rgb(230, 49, 49) 12%, rgb(192, 119, 9) 88%);
+    color: #fff;
+}
+.total{
+    margin-top: 10px;
+}
+
+.nome, .hora{
+    margin-left: 10% ;
+    color: #000;
+    padding: 4px;
+    border-radius: 10px;
+    border: transparent;
+}
